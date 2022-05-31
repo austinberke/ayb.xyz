@@ -13,7 +13,19 @@ p {
   position: fixed;
   overflow-y: scroll;
   overflow-x: hidden;
-  padding-bottom: 8vw;
+}
+
+@media only screen and (max-width: 599.99px) {
+  #content {
+    padding-top: 5vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #content {
+    padding-top: 20vh;
+    padding-bottom: 40vh;
+  }
 }
 
 a {
@@ -46,7 +58,7 @@ p {
 
 .title {
   font-size: 24vw;
-  margin-bottom: 8vw;
+  margin-bottom: 9vw;
 }
 
 .link {
@@ -56,7 +68,7 @@ p {
 
 .contact {
   font-size: 8vw;
-  margin-top: 8vw;
+  margin-top: 9vw;
 }
 
 @keyframes gradient-animation {
