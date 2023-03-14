@@ -30,7 +30,7 @@ const Links = () => {
       <br />
       <Link url="https://chickenandtheeggnyc.com">chicken & the egg</Link>
       <Link url="https://sincerelyophelianyc.com">sincerely, ophelia</Link>
-      <Link url="https://thegatsby.com">wip</Link>
+      <Link url="https://eventually.nyc">eventually</Link>
       <br />
       <Link url="https://calendly.com/austin-berke-hl/30min">
         let's chat :-)
